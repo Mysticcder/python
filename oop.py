@@ -9,9 +9,11 @@ class People:
 # ppl = People()
 #
 # ppl.name = "Alex"
+# print(ppl.name)
+
 
 person1 = People("Alex", 19, "Kenyan", )
 person2 = People("mystic", 22, "Kenyan", )
 print(f"hi, my name is {person1.name}")
 
-# print(person1.name)
+print(person1.name)
